@@ -66,6 +66,10 @@ or use another port
 ng serve --port anotherport number
 
 
+After making the ng serve you will get the cli content in the browser then
+you cna eddit that content.
+go to the html file and make the changes and see the chnges after saving the file. 
+
 
 
 
