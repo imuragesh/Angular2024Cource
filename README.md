@@ -56,6 +56,19 @@ App.Module.ts
 then other configuration file you can see the below of the files
 in that pakage.json file you can see the dependenciesdependencies
 
+When you need open the app in to browser then 
+just add the ng serve to you comond terminal
+>>ng serve
+
+If your using port you will get the 
+port is alrady using  ng serve process running - make sure to quit that
+or use another port
+ng serve --port anotherport number
+
+
+
+
+
 
 
 
