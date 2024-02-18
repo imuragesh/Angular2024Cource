@@ -242,4 +242,10 @@ how to use the inline template styling for the component
 in you conponent in .ts file you can chnage the templateurl to template and add you html tag in that  but you need to add it in sigle line if you want add it more line if tags in the template you have to use the javascrpt notaion 
 back tic simple and  you can add the next line  also tags and other things
 
+whjen you need create teh div with class
+just add the .classname 
+it will create the dive with the class  no nned to add teh class name manualy
+>we mad mistake related te botstrap installation and impoting it in the angular.json file
+
+
 
