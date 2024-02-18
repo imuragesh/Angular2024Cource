@@ -204,7 +204,14 @@ like sever.component.html
 
 now we created one component and  we will use it 
 to use we will dive into teh  app.component.ts
-we need to change somthig in this file to consume the created component
+we need to change somethig in this file to consume the created component
 
+you need to register your created component in app.module.ts file.
+In the file you can see the @ngModule decorative section you can see the 
+declaration section in that you need to add you component and after that you need to  import it the file 
+in the  above of the @ngModule decorative 
+
+when you added the component in app module .ts file now yuu can use the added module in your 
+project.
 
 
