@@ -158,3 +158,53 @@ npm install --save botstrap
 Go to your app.module.ts
  if you add the any style in the styles.css it will effect all the component styling
 
+ Basic  
+
+ How an angular App gets Loaded and Started?
+
+index.html file you can see inside the  body tag 
+ <app-root></app-root>
+ tag is added 
+ what ever the changes you made in the app componet related the css , ts and html file it will render to the index.html file and it will show in the browser also.
+ In your @component decorater you can see the selector ass the  "app-root"  string that will load the component
+  and when inspect and see the source code you will see the in the body tag you will see the  <app-root></app-root> tag and some botstrap and the style script tag in teh source code  these are injected by the cli 
+
+  explore  the mail.yts file 
+
+  What is the Component?
+  Components are Inportent!
+  you can create the more tahn one component and you can use them in you applivcation where ever yuou want means reusable 
+  for exmple you wrote some logic in the abc component and you want use in that  logic in the different component 
+  the logic off the abc component is to add or show the user when they want to see the user or add user that time you need to 
+  abc component.
+
+creating a new component
+go to the  src folder and inside the src folder app folder go to the app folde in that create one folder and with the component name
+like server 
+in that add the file like sever.component.ts
+you will get one empty file in yopur project
+componet is just one class  of type script
+just add the  this in your ts file
+export class ServerComponent{
+   
+}
+
+add the @component({})
+and inport oit from the '@angular/core'
+in side the @component
+add selector and the selector should be the string
+like you can add 
+selecto:'app-server' it can be any thig you cna give other name also
+when ever you need to use this componet that time you need to use the selector tag in your html file 
+like  <app-server>  <app-server/> it will load the server componet in you html file 
+ 
+ when you want to use the template in you component create the one more file in the same folder with extention .html
+
+like sever.component.html
+
+now we created one component and  we will use it 
+to use we will dive into teh  app.component.ts
+we need to change somthig in this file to consume the created component
+
+
+
