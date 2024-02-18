@@ -92,8 +92,36 @@ for example you declered the
 string name in the .ts file
 myName:string='Muragesh';
 
+
+One Wayt data Binding
 this string you need to consume it in  .html file that time it will show that content in the browser
 My name is {{myName}} 
+like we can use 
+<h1>{{myName}}</h1>
+
+this {{myName}} what we called one way data binding  what ever the  component to the view  binding data 
+we called it as the one way data binding. 
+what ever the myNmae is holding the content that we are  showing in the view
+
+Two Way data binding [(ngModule)]
+
+when you are using the two way data binding this time you have to import the formsModule from the '@angular/forms'
+in you app.module.ts file and after that you need to import the formmodule in ng
+
+for Example When you want to show the content in the view  (.html file) after that modified content hans to reflect in  component (.ts file )
+that time we are using the [(ngModule)]  concept two way data binding
+
+You have one input box and you are showing the content in that input box and you modified the content in that box you need to show that data in paragraph or you have to store that data in data base you need to  use the two way data binding
+in ts file you declered the name as string and assigned some content to that variable
+naae:string='muragesh';
+
+<input type="text"  [(ngModel)]="name">
+you can see the muragesh in the input box after that you can modifie the content in teh input box modified contnet you need to see means you ned to consume the 
+declerd variable in your view 
+ 
+<p>name</p>
+now you can see the muragesh name at th first time after that you can see the modified content also in the  paragraph thats how two way data binding it will work
+
 
 
 
