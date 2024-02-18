@@ -250,7 +250,7 @@ just add the .classname
 it will create the dive with the class  no nned to add teh class name manualy
 >we mad mistake related te botstrap installation and impoting it in the angular.json file
 
-you can see the bootstap instal is done or not after runing the application inspect and teh seach the source filder tag and check the style and style.css file you cand see ythe bootstrap version in your project.
+you can see the bootstap install is done or not after runing the application inspect and teh seach the source filder tag and check the style and style.css file you cand see ythe bootstrap version in your project.
 
 
 
