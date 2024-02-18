@@ -213,5 +213,7 @@ in the  above of the @ngModule decorative
 
 when you added the component in app module .ts file now yuu can use the added module in your 
 project.
-
+  how to use the component using selector string::
+  <app-server><app-server/>
+  add this tag in you html file you can see the chnges
 
