@@ -123,20 +123,38 @@ declerd variable in your view
 now you can see the muragesh name at th first time after that you can see the modified content also in the  paragraph thats how two way data binding it will work
 
 
+Course structure
 
+Getting Started
+The Basic
+Components and databinding(one way  & two way)
+Directives [(ngModule)] is also directives
+Services & Dependancy injection
+Routing
+Observables
+Forms
+Pipes
+Http
+Authenticatiom
+Optimization & NgModules
+deployments
+Animations and testing
+how to get the most out of the Cource
+Watch the Videos
+Do the Assignments
+Do the Project
+ask te Q&A
+also answer questions.
 
+What is the script?
+It is the super set of java script.
+the type sript code is run in java script at the end
+more fetutres  in type scipt.
 
+Botstrap usage in you project for styeling 
+Download the bootstrap
+npm install --save botstrap
 
-
-
-
-
-
-
-
-
-
-
-
-
+Go to your app.module.ts
+ if you add the any style in the styles.css it will effect all the component styling
 
