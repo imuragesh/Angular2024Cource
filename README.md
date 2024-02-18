@@ -153,8 +153,11 @@ more fetutres  in type scipt.
 
 Botstrap usage in you project for styeling 
 Download the bootstrap
-npm install --save botstrap
-
+npm install --save bootstrap
+or
+npm install bootstrap
+you can see tyhe bootstarp folder in you ng module  and teh inside dist  adn css and bootstrap.min.css file
+this file path we have to register in the angular.json file under the style arry
 Go to your app.module.ts
  if you add the any style in the styles.css it will effect all the component styling
 
@@ -246,6 +249,10 @@ whjen you need create teh div with class
 just add the .classname 
 it will create the dive with the class  no nned to add teh class name manualy
 >we mad mistake related te botstrap installation and impoting it in the angular.json file
+
+you can see the bootstap instal is done or not after runing the application inspect and teh seach the source filder tag and check the style and style.css file you cand see ythe bootstrap version in your project.
+
+
 
 
 
