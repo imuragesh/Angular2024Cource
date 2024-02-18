@@ -237,4 +237,8 @@ now i creted the one component with he name servers
 Just explore it more on these
 
 
+how to use the inline template styling for the component 
+
+in you conponent in .ts file you can chnage the templateurl to template and add you html tag in that  but you need to add it in sigle line
+
 
