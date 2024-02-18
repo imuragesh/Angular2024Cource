@@ -70,6 +70,32 @@ After making the ng serve you will get the cli content in the browser then
 you cna eddit that content.
 go to the html file and make the changes and see the chnges after saving the file. 
 
+18/02/2024 <funday>sunday<funday/>
+How we can see the some comtent in the browser?
+ for example you can  add the sytring to the browser using the header tag 
+for example 
+<h1>hello world</h1> 
+it will show thw hello world with the big text 
+if you want to less words width  then you can use the 
+<h3>hello world</h3>
+<h2>hello world</h2>
+<h4>hello world</h4>
+<h5>hello world</h5>
+<h6>hello world</h6>
+
+you can try this header tag and you will see the difference in the words width
+
+
+when you declered the string in the .ts file then you need to show that content is the browser 
+that time you need to use the data binding concept 
+for example you declered the 
+string name in the .ts file
+myName:string='Muragesh';
+
+this string you need to consume it in  .html file that time it will show that content in the browser
+My name is {{myName}} 
+
+
 
 
 
