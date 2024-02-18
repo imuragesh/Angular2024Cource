@@ -217,3 +217,24 @@ project.
   <app-server><app-server/>
   add this tag in you html file you can see the chnges
 
+  creating Components with the CLI & Nesting Components
+  Cli Comond
+
+  ng genertae component componentname
+  or shortcut
+  ng g c componentname
+
+The cli generate the one folder inside the app folder and it will generate the files
+and it will automaticaly add the component in  the app.module.ts file
+now i creted the one component with he name servers
+ adding cli comond as 
+ ng g c servers
+ you see the folder name as the servers and inside that folder you can see the files 
+ in .ts file you can see the @component decorater it will add it dictly no need ton add  all the selecto and templateurl ans styleurl and the impoted and in declaration section componenet is registered automaticaly in the app.module.ts file also
+
+ in the created file .ts file if contain the construter construter(){} and the ngOnInit ngOnInit(){}
+
+Just explore it more on these
+
+
+
