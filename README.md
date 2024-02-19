@@ -285,6 +285,20 @@ Html   file ===> to ts file
 
 
 Combination of both : Twoway data binding ([ngModule])="data"
+ 
+
+First String Interpolution 
+ts file ===> html file 
+{{Propertname}} reperence the propert name in the curly braces
+
+we acn alos use the sting inside the string  interpolation 
+also methos also
+examples
+<p>The {{'Server'}} is {{propertyname}} and te iD Is{{properyName}}</p>
+
+
+
+
 
 
 
