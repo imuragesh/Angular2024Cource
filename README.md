@@ -270,6 +270,22 @@ selector:.app-servers
 
 Creating the two component and using manualy and the cli comond also and consumimg tose  component as teh success and warning alert shoing the browser
 
+what is the data binding?
+databindin=communication
+comunication between the typescript(business logic) file and the template file (Html)
+
+in the different way of data binding 
+from  typesrcipt to the html file .
+String Intepolation({{}})
+Property Binding [property]="data"
+
+and Evevnrt  binding 
+from html to the make action in the ts file
+Html   file ===> to ts file 
+
+
+Combination of both : Twoway data binding ([ngModule])="data"
+
 
 
 
