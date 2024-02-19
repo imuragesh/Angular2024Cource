@@ -304,6 +304,10 @@ when you add the squre brucets to the disabled property it indicates the
 data binding 
 [disabled]="!Propertname" negaton a with properrty name
 
+Property binding vs String Interpolution
+ string interpolution  {{Propert name}}  and   [ineerText]="Property name"
+
+don't use the bouth at time means  propety binding inside that don't use the string interpolution
 
 
 
