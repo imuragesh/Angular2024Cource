@@ -261,7 +261,14 @@ now you can use the component as the attribute like
 <div app-server></div>
 
 
+select by class how to  use the component 
 
+if you add the staring of the selector dot . you can use as the class
+like.
+selector:.app-servers 
+
+
+Creating the two component and using manualy and the cli comond also and consumimg tose  component as teh success and warning alert shoing the browser
 
 
 
