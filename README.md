@@ -250,7 +250,19 @@ just add the .classname
 it will create the dive with the class  no nned to add teh class name manualy
 >we mad mistake related te botstrap installation and impoting it in the angular.json file
 
-you can see the bootstap install is done or not after runing the application inspect and teh seach the source filder tag and check the style and style.css file you cand see ythe bootstrap version in your project
+you can see the bootstap install is done or not after runing the application inspect and teh seach the source filder tag and check the style and style.css file you cand see ythe bootstrap version in your project.
+
+Fully understand the component selector.
+
+you can use the selector ny attribute selector 
+you have to make teh changes to the selectro the selector string has to  add it in teh [] brukets
+like  selector:[App-servers]
+now you can use the component as the attribute like 
+<div app-server></div>
+
+
+
+
 
 
 
