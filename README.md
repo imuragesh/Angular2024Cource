@@ -297,6 +297,14 @@ examples
 <p>The {{'Server'}} is {{propertyname}} and te iD Is{{properyName}}</p>
 
 
+Event binding 
+Add teh one button and give the class b primary button and the make first disabled and after some setof interval time make that one enable based on the boolean value
+
+when you add the squre brucets to the disabled property it indicates the
+data binding 
+[disabled]="!Propertname" negaton a with properrty name
+
+
 
 
 
