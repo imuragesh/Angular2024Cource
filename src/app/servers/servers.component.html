@@ -1,6 +1,6 @@
-<p>servers works!</p>
-<button class="btn btn-primary" [disabled]='!AlloeNewServer'  >Add Server</button>
+<!-- <p>servers works!</p> -->
+<button class="btn btn-primary" [disabled]='!AllowNewServer' (click)='onCreatiinServer()'  >Add Server</button>
 <!-- <p>{{AlloeNewServer}}</p> -->
-<p [innerText]='AlloeNewServer' ></p>
+<p [innerText]='serverCreationStatus' ></p>
 <app-server></app-server>
 <app-server></app-server>
