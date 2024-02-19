@@ -307,7 +307,12 @@ data binding
 Property binding vs String Interpolution
  string interpolution  {{Propert name}}  and   [ineerText]="Property name"
 
-don't use the bouth at time means  propety binding inside that don't use the string interpolution.
+don't use the both at time means  propety binding inside that don't use the string interpolution.
+
+
+Event binding
+
+
 
 
 
