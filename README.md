@@ -355,3 +355,10 @@ how to add the local reference and #noSerevr
    <p>Only visible if 'somecondition' is true</p>
  }
 
+ Attribute  directives
+unlike structural directive ,attribute directive do'nt asdd or remove elements.They only change the element they were plased on.
+
+
+
+
+
