@@ -356,9 +356,9 @@ how to add the local reference and #noSerevr
  }
 
  Attribute  directives
-unlike structural directive ,attribute directive do'nt asdd or remove elements.They only change the element they were plased on.
+unlike structural directive ,attribute directive don't add or remove elements.They only change the element they were placed on.
+ngStyle,ngClass
 
-
-
-
+and*ngFor="let Servers of servers"
+here servers is the array we re looping the array as like javascript loop
 
