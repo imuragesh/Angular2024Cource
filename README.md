@@ -348,4 +348,10 @@ how to add the local reference and #noSerevr
  *ngIf="servercreayted; else noServer"
  when we have to use the else condition that time we have to use the added string as the #noserver in our tag and the
  along with another alternative way of use the else condoition statements  *ngIf="!propertyname" but this is nit the goog way of use
- 
+
+ when you  are using the angular 17 not required to use like this you have to use like this
+ @if(somecondition)
+ {
+   <p>Only visible if 'somecondition' is true</p>
+ }
+
