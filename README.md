@@ -340,3 +340,12 @@ Structural directive
 *ngIf
 * indicates the structure changes
 * is required becouse ngIf is the structure directive if true we will add the element oithe rwise will not add the element.
+
+Enhancing the ngIf along with an else condition
+
+how to add the local reference and #noSerevr
+
+ *ngIf="servercreayted; else noServer"
+ when we have to use the else condition that time we have to use the added string as the #noserver in our tag and the
+ along with another alternative way of use the else condoition statements  *ngIf="!propertyname" but this is nit the goog way of use
+ 
