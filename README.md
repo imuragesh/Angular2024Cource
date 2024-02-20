@@ -330,3 +330,13 @@ import { FormsModule } from '@angular/forms';
 
 but i allreday impotretd in the app.module.ts file 
 formModule and add in the  import section
+
+
+What is the directives?
+
+directives are instruction to the dom!
+
+Structural directive 
+*ngIf
+* indicates the structure changes
+* is required becouse ngIf is the structure directive if true we will add the element oithe rwise will not add the element.
