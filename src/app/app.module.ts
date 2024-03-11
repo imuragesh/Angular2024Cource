@@ -7,6 +7,13 @@ import { ServerComponent } from './Server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { WarningAlertComponent } from './warningAlert/warningAlet.Component';
+import { HeaderComponent } from './header/header.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { RecipesDetailsComponent } from './recipes/recipes-details/recipes-details.component';
+import { RecipesListComponent } from './recipes/recipe-list/recipes-list.component';
+import { ResipiesItemComponent } from './recipes/recipe-list/recipe-item/resipies-item.component';
+import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
+import { ServerElementComponent } from './server-element/server-element.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +21,14 @@ import { WarningAlertComponent } from './warningAlert/warningAlet.Component';
     ServerComponent,
     ServersComponent,
     SuccessAlertComponent,
-    WarningAlertComponent
+    WarningAlertComponent,
+    HeaderComponent,
+    RecipesComponent,
+    RecipesDetailsComponent,
+    RecipesListComponent,
+    ResipiesItemComponent,
+    ShoppingEditComponent,
+    ServerElementComponent
   ],
   imports: [
     BrowserModule,

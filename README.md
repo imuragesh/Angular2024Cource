@@ -362,3 +362,50 @@ ngStyle,ngClass
 and*ngFor="let Servers of servers"
 here servers is the array we re looping the array as like javascript loop
 
+Creating the component Manualy by hands not cli
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Section-6 
+property binding and the event binding  overview
+HtmlElements  Directives  Components
+
+
+
+section7:-
+Directive Deep Dive
+
+Understanding the ngSwitch and how to use and the how to assigne the value from the ts file to the ngSwitch abd the how to 
+use the switch value also 
+
+[ngSwitch]="value";
+ herre the value is the property witch holding the value in the ts file like 
+ value="2" or value:string="2";
+
+ For Example We have one div in that we have to apply the switch case
+
+ <div [ngSwitch]="value">
+ <p *ngSitchCase="1">value is 1</p>
+ <p *ngSwitchCase="2">value is 2</p>
+ <p *ngSwichCase="3">value is 3</p>
+ <p *ngSwichCase="4">value is 4</p>
+ <p *ngSwitchDefault >value is default</p>
+ <p *ngSwitchDefault >value is default</p>
+ 
+ </div>
+
+
+
+
